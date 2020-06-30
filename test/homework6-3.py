@@ -75,7 +75,6 @@ if __name__ == '__main__':
     step_GS = 0
     while (arraydelta(x1, x2) > eps):
         x1 = x2
-        print(n11)
         for i in range(9):
             t1 = 0
             for j in range(9):
